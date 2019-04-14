@@ -1,1 +1,72 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>THAMES RIVER ANGLERS ASSOCIATION</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<h1 class="hidden">TRAA</h1>
+	<div id="container">
+		<header id="mainHeader">		  
+			<div id="logoHeader">
+				<img src="images/logo.png" alt="logo">
+			</div><!-- end logoHeader -->
+			<div id="titleBar">
+				<h2><space class="thames">THAMES RIVER</space> <br> ANGLERS ASSOCIATION</h2>
+			</div><!-- end logoHeader -->
+			<form id="searchForm" action="search.php" method="get">
+              <div id="searchCon">
+                <input type="text">
+                <input type="submit" value="search">
+              </div>
+            </form>          			
+		</header><!-- end mainHeader -->
+
+		<nav id="mainNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a href="contact.html">Contacts</a></li>
+				</ul>
+			</nav><!-- end mainNav -->
+			<div id="banner">
+				<img src="images/banner.jpg" alt="banner">
+			</div><!-- end banner -->
+
+		<div id="contactBox">
+			<h2>CONTACT US</h2>
+			<form id="contactForm" action="actions.php" method="post">
+				<label for="name">Name: </label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    <label for="email">Email: </label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    <label for="email">City: </label>
+                    <input type="text" required id="city" size="30" placeholder="Enter your City">
+                    <label for="email">Message: </label>
+                    <textarea name="message" id="message" placeholder="Write Something...." required cols="100" rows="8"></textarea>
+
+                    <input id="submit" type="submit" value="Submit">
+			</form>
+		</div>
+
+		
+
+		    <div id="footer">
+		    		<div id="follow"><p>Follow Us On...</p>
+		    		<a href="#" class="icon"><img src="images/fb.jpg" alt="facebook"></a>
+		    		<a href="#" class="icon"><img src="images/twitter.jpg" alt="twitter"></a>
+		    		<a href="#" class="icon"><img src="images/youtube.jpg" alt="youtube"></a>
+		    		<a href="#" class="icon"><img src="images/instagram.jpg" alt="instagram"></a>
+		    	</div>
+					<p>Copyright © TRAA Anglers</p>
+				   <img src="images/footer logo.png" alt="logo footer">
+		    </div>
+	</div><!-- end container -->
+<script src="js/main.js"></script>
+</body>
+</html>
