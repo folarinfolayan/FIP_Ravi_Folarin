@@ -1,4 +1,4 @@
- @charset "utf-8";
+@charset "utf-8";
 
 .hidden{
 	display: none;
@@ -430,6 +430,41 @@ margin-right: 80px;
 #projects h2{
 	margin-bottom: 30px;
 	background-color: #344903;
+}
+
+.gallerymain{
+	margin: 10px 80px; 
+	text-align: center;
+}
+
+.gallerymain img{
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallerymain img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+
+.gallery{
+	margin: 10px 50px;
+	text-align: center;
+
+}
+
+.gallery img{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
 }
 
 #rows{
