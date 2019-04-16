@@ -383,8 +383,9 @@ margin-right: 35px;
 }
 
 .localTitle{
-background-color: #276e78
-
+background-color: #276e78;
+width: 1365px;
+height: 25px;
 }
 
 #slides{
@@ -494,16 +495,16 @@ height: 293px;
 #about p{
 line-height: 35px;
 text-align: left;
-margin-left: 10px;
+margin-left: 20px;
 margin-right: 10px;
-
+margin-top: -50px;
 }
 
 #about h2{
 color: white;
 background-color: #344903;
 text-align: center;
-margin-top: 30px;
+margin-top: 20px;
 font-size: 23px;
 }
 
@@ -545,7 +546,7 @@ margin-left: 108px;
 
 #moreAbout p{
 text-align: left;
-line-height: 30px;
+line-height: 20px;
 margin-right: 20px;
 margin-left: 20px;
 }
@@ -606,19 +607,19 @@ margin-left: 05px;
 
 span{
 font-weight: bold;
-
+font-size: 25px;
 }
 
 .credentials{
 display: flex;
-flex-direction: column;
-margin: 50px;
-padding-left: 80px;
+flex-direction: row;
+margin-top: 125px;
+padding-right: 200px;
 }
 
 .credentials p{
-margin-right: 80px;
-text-align: left;
+margin-right: 20px;
+text-align: center;
 }
 
 #ourProjTile{
@@ -824,6 +825,16 @@ margin-bottom: -17px;
 padding-bottom: 10px; 
 }
 
+.merch{
+	margin:0px 30px;
+	text-align: center;
+	background-color: #5c8301;
+}
+
+.merch img{
+	width: 230px;
+}
+
 }
 
 .gallerymain{
@@ -861,3 +872,82 @@ padding-bottom: 10px;
 	transform: scale(1.1);
 }
 
+.more_info{
+width: 1340px;
+height: 1100px;
+margin: 0 auto;
+background-color: #5c8301;
+margin-top: 30px;
+}
+
+.more_info p{
+	text-align: left;
+	font-size: 17px;
+	padding: 10px;
+}
+
+.more_info h4{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+
+.more_info h2{
+	background: linear-gradient(to right, #a9b300 0%, #fff 100%); 
+	padding-bottom: 10px; 
+	margin-bottom: -17px;
+}
+
+.more_info h3{
+	padding: 5px;
+}
+
+.submission{
+	width: 1340px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: #5c8301;
+	margin-top: 30px;
+}
+
+.submission h4{
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+}
+
+.submission h2{
+	width: 1340px;
+	height: 30px;
+	background-color: #344903;
+}
+
+.submission p{
+	font-size: 55px;
+	text-align: center;
+}
+
+.TRAA_MEETING{
+	width: 1340px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: #5c8301;
+	margin-top: 30px;
+}
+
+.TRAA_MEETING h2{
+	width: 1318px;
+	height: 60px;
+	background-color: #344903;
+	color: white;
+	text-align: left;
+	padding: 10px;
+}
+
+.TRAA_MEETING p{
+	text-align: left;
+	padding: 30px;
+	font-size: 40px;
+}
