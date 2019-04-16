@@ -1,0 +1,5 @@
+# ignore folder name 'assets
+assets/
+# ignore assets folder
+*.assets
+assets
